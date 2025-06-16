@@ -26,9 +26,13 @@ cd hms-backend
 
 # Backend setup
 composer install
+
 cp .env.example .env
+
 php artisan key:generate
-php artisan migrate --seed
+
+php artisan migrate 
+
 php artisan serve
 
 cd hms-frontend

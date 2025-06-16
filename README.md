@@ -1,6 +1,6 @@
 # 🏥 Health Appointment Request System
 
-A **fullstack application** built with **Laravel 10+** and **Vue 3** for managing health appointment requests between patients and doctors.
+A **fullstack application** built with **Laravel 12 ** and **Vue 3** for managing health appointment requests between patients and doctors.
 
 ---
 

@@ -6,6 +6,8 @@ use App\Http\Controllers\AppointmentRequestController;
 use App\Http\Controllers\AuthController;
 
 
+
+
 Route::prefix('v1')->group(function () {
     // Authentication routes
     Route::post('/auth/register', [AuthController::class, 'register']);
